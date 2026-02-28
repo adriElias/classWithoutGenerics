@@ -20,16 +20,21 @@ Create a class `NoGenericMethods` that:
 Demonstrate that the constructor accepts the arguments regardless of their order.
 
 ## Project Structure
-```text
-src/
-├── NoGenericMethods.java
-└── Main.java             # Demonstration of usage
+```text 
+genericsWithDiverseParameters/
+├── pom.xml
+└── src/
+├── main/java/
+│   └── NoGenericMethods.java
+│   └── Main.java
+└── test/java/
+└── NoGenericMethodsTest.java           
 ```
 ## How to Run
 
 ```bash
-javac src/*.java
-java -cp src Main
+# Maven
+mvn test
 ```
 
 ### Example Usage & Output
